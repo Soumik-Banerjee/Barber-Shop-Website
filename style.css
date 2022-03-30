@@ -6,6 +6,8 @@
 }
 :root{
     --cPrimary: #009688;
+    --cBlue : #1DA1F2;
+    --cBackground: #eee;
 }
 html{
     scroll-behavior: smooth;
@@ -89,14 +91,14 @@ nav ul li{
 }
 
 nav ul li:hover{
-    border: 2px solid #eee;
+    border: 2px solid var(--cBackground);
 }
 
 
 nav ul li a{
     font-weight: 900;
     text-decoration: none;
-    color: #eee;
+    color: var(--cBackground);
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -271,7 +273,7 @@ SERVICES SECTION
 === */
 
 .services{
-    background: #eee;
+    background: var(--cBackground);
     padding: 50px 0;
 }
 
@@ -386,11 +388,11 @@ TESTIMONIAL SECTION
 }
 
 .review__top div small{
-    color: #1DA1F2;
+    color: var(--cBlue);
 }
 
 .testimonial__review svg{
-    color: #1DA1F2;
+    color: var(--cBlue);
 }
 
 .review__top img{
@@ -409,7 +411,7 @@ footer svg{
 
 footer{
     padding: 50px 0 0;
-    background-color: #eee;
+    background-color: var(--cBackground);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -486,7 +488,7 @@ footer{
 }
 
 .footer__links a:hover svg{
-    color: #eee;
+    color: var(--cBackground);
 }
 
 
