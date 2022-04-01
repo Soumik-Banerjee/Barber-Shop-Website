@@ -7,9 +7,9 @@ This is a simple static single page website for a saloon. The main thing of this
 
 | Color             | Hex                                                  |
 | ----------------- | ---------------------------------------------------- |
-| Primary Color | ![#009688](https://via.placeholder.com/10/009688?text=+) |
-| Blue          | #1DA1F2                                                  |
-| Background Color| #eee                                                   |
+| Primary Color | ![#009688](https://via.placeholder.com/10/009688?text=+) #009688 |
+| Blue          | ![#1DA1F2](https://via.placeholder.com/10/1DA1F2?text=+) #1DA1F2                                                  |
+| Background Color| ![#eee](https://via.placeholder.com/10/eee?text=+) #eee                                                   |
 
 ## Resources
 **Font Used** - Poppins
